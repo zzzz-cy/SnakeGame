@@ -131,16 +131,6 @@ void MainWindow::startServer(){
             sendMessage();
         }
     });
-
-    //用按钮进行测试
-//    connect(ui->sendMessage,&QPushButton::clicked,[=](){
-//        if(num>0){
-//            updatePosition();
-//            detect();
-//            setFood();
-//            sendMessage();
-//        }
-//    });
 }
 
 //数据处理
